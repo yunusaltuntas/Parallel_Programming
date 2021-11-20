@@ -1,1 +1,2 @@
-"# Multitasking" 
+# Multitasking
+Parallel programming unlocks a program’s ability to execute multiple instructions simultaneously, increases the overall processing throughput, and is key to writing faster and more efficient applications. In this repo, ı share my parallel programming skill in python.
