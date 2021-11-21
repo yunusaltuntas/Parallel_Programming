@@ -16,3 +16,6 @@
  - Two processes can execute code simultaneously in the same python program
  - Processes have more overhead than threads as opening and closing processes takes more time
  - Sharing information between processes is slower than sharing between threads as processes do not share memory space. In python they share information by pickling data structures like arrays which requires IO time.
+
+## Other Scripts
+- [**scheduling.py**]() => in this project has example of thread work until time is up   
