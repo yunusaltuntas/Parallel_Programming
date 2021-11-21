@@ -24,3 +24,4 @@
 if you define daemon thread. when the main thread finishes, automatically will close the daemon thread
 - [**data_race**]() => A race condition occurs when two or more threads can access shared data and they try to change it at the same time. As a result, the values of variables may be unpredictable and vary depending on the timings of context switches of the processes.
 - [**mutual_exclusion.py**]() => Mutual exclusion is the ability of a program to control access to a shared resource. It is the ability of a program to ensure that only one thread at a time can access a shared resource.
+- [**reentrant_lock.py**]() => Reentrant lock is a lock that can be acquired multiple times by the same thread.
