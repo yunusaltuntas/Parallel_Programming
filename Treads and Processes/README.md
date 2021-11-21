@@ -22,3 +22,4 @@
 - [**thread_lifecycle.py**]() => in here, we can understand basically when do threads wait and then threads work
 - [**deamon_thread.py**]() => in this example, sometimes the main thread finish but our program can still work this may cause a problem. this problem has a solution here. 
 if you define daemon thread. when the main thread finishes, automatically will close the daemon thread
+- [**data_race**]() => A race condition occurs when two or more threads can access shared data and they try to change it at the same time. As a result, the values of variables may be unpredictable and vary depending on the timings of context switches of the processes.
