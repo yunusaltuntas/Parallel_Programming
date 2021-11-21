@@ -20,4 +20,5 @@
 ## Other Scripts
 - [**scheduling.py**]() => in this project has example of thread work until time is up
 - [**thread_lifecycle.py**]() => in here, we can understand basically when do threads wait and then threads work
-- 
+- [**deamon_thread.py**]() => in this example, sometimes the main thread finish but our program can still work this may cause a problem. this problem has a solution here. 
+if you define daemon thread. when the main thread finishes, automatically will close the daemon thread
