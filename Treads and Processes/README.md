@@ -18,4 +18,6 @@
  - Sharing information between processes is slower than sharing between threads as processes do not share memory space. In python they share information by pickling data structures like arrays which requires IO time.
 
 ## Other Scripts
-- [**scheduling.py**]() => in this project has example of thread work until time is up   
+- [**scheduling.py**]() => in this project has example of thread work until time is up
+- [**thread_lifecycle.py**]() => in here, we can understand basically when do threads wait and then threads work
+- 
