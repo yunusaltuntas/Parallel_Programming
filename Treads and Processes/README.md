@@ -30,3 +30,5 @@ if you define daemon thread. when the main thread finishes, automatically will c
 - [**deadlock.py**]() => in this script, there are three threads. The first thread gets acquire chopstick_a  and second is  chopstick_b and the third is chopstick_c. however, the first thread needs to continue chopstick_b. and the second thread needs to continue chopstick_c. the third thread needs to continue chopstick_a.  all threads need others to continue. this problem causes deadlock occurs.
 - [**abandoned_lock.py**]() => sometimes inside of the thread may cause an exception. in this scenario, if it has a mutex it may not be released the mutex. so that causes an abandoned lock. and other threads wait for that to release. for the solution we use the python context manager ("with" statement)
 - [**starvation.py**]() => while we do prioritization may cause starvation if we can not be careful. one thread cants any work when other threads have every time upper priority from that. to this situation calls starvation 
+- [**livelock.py**]() => it is the same as deadlock but while the deadlock thread stops. the livelock thread pass but they don't do anything
+- 
